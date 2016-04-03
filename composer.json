@@ -1,0 +1,24 @@
+{
+    "name": "droid/droid-dbtk",
+    "description": "Droid plugin for Dbtk",
+    "homepage": "http://www.github.com/droid-php/droid-dbtk",
+    "keywords": ["php", "droid", "dbtk", "linkorb"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "LinkORB Engineering",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.7",
+        "dbtk/schema-loader": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Droid\\Plugin\\DbTk\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
